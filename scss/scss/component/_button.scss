@@ -1,0 +1,48 @@
+// Main button
+.main-button {
+    background-color: rgba($redcolor, .8);
+    padding: 10px 15px;
+    text-align: center;
+    min-width: 120px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $redcolor;
+
+    }
+}
+
+// toggle
+.the-toggler {
+    background-color: #e2494c;
+    overflow: hidden;
+    float: $float-r;
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+
+    @media #{$minSmall} {
+        display: none;
+
+    }
+
+
+    span {
+        background-color: #fff;
+        width: 50%;
+        height: 3px;
+        display: block;
+
+        margin: 5px auto;
+
+
+
+    }
+}

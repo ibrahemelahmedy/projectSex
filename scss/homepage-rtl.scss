@@ -1,0 +1,201 @@
+@import '../scss/scss/Helpers/variable';
+$float-l: right;
+$float-r: left;
+// text align
+$txt-al-l: right;
+$txt-al-r: left;
+
+// Start Header
+.header {
+
+
+    .logo {
+
+        float: $float-l;
+
+
+
+
+        @media #{$minLarge} {
+            float: $float-l;
+            text-align: $txt-al-l;
+
+        }
+
+        .text {
+            float: $float-l;
+        }
+
+        .the-toggler {
+
+            float: $float-r;
+
+
+
+
+
+
+        }
+
+
+
+
+    }
+
+    .navbar {
+
+        float: $float-l;
+
+
+
+
+
+        @media #{$minLarge} {
+            float: $float-l;
+            text-align: $txt-al-l;
+
+        }
+
+
+
+        li {
+            float: $float-l;
+
+
+
+
+
+        }
+
+    }
+}
+
+// End Header
+// Start content
+
+// Start services
+.services-box {
+
+
+
+
+
+
+    @media #{$minMedium} {
+        float: $float-l;
+
+
+    }
+
+
+
+
+}
+
+// End services
+// Start our player
+.player-box {
+    float: $float-l;
+
+
+
+
+
+
+
+
+
+
+}
+
+// End our player
+// Start Lorem Ipsum
+.lorem-ipsum {
+
+
+    .lorem-box {
+        float: $float-l;
+
+
+
+
+    }
+
+}
+
+// End Lorem Ipsum
+// End content
+// start Footer
+.footer {
+
+
+
+
+
+    .galery,
+    .info,
+    .contact {
+        float: $float-l;
+    }
+
+    .galery {
+
+
+
+        .img-box {
+
+
+
+
+            img {
+
+
+
+                float: $float-l;
+
+
+            }
+
+            .text {
+
+                float: $float-l;
+
+
+
+
+            }
+        }
+
+    }
+
+
+
+
+    .copyright {
+
+
+        .text,
+        .auther {
+            float: $float-l;
+
+
+
+
+
+
+        }
+
+
+
+        .auther {
+            text-align: $txt-al-r;
+
+
+        }
+
+    }
+
+
+}
+
+// End Footer

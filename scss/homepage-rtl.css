@@ -1,0 +1,60 @@
+.header .logo {
+  float: right;
+}
+@media (min-width:1200px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+.header .logo .text {
+  float: right;
+}
+.header .logo .the-toggler {
+  float: left;
+}
+.header .navbar {
+  float: right;
+}
+@media (min-width:1200px) {
+  .header .navbar {
+    float: right;
+    text-align: right;
+  }
+}
+.header .navbar li {
+  float: right;
+}
+
+@media (min-width:992px) {
+  .services-box {
+    float: right;
+  }
+}
+
+.player-box {
+  float: right;
+}
+
+.lorem-ipsum .lorem-box {
+  float: right;
+}
+
+.footer .galery,
+.footer .info,
+.footer .contact {
+  float: right;
+}
+.footer .galery .img-box img {
+  float: right;
+}
+.footer .galery .img-box .text {
+  float: right;
+}
+.footer .copyright .text,
+.footer .copyright .auther {
+  float: right;
+}
+.footer .copyright .auther {
+  text-align: left;
+}/*# sourceMappingURL=homepage-rtl.css.map */

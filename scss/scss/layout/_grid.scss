@@ -1,0 +1,44 @@
+// Global rule
+* {
+    box-sizing: border-box;
+    @include Prefixer(box-sizing, border-box, webkit moz);
+}
+
+// containee
+
+.container {
+
+
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+
+    @media #{$minSmall} {
+        width: 750px;
+    }
+
+    @media #{$minMedium} {
+        width: 970px;
+    }
+
+    @media #{$minLarge} {
+        width: 1170px;
+    }
+}
+
+
+
+
+// clearfix
+.clearfix {
+    clear: both;
+}
+
+// textalign 
+.txt-al-center-xs {
+    @media #{$maxMobile} {
+        text-align: center;
+    }
+
+}

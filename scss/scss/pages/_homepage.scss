@@ -1,0 +1,208 @@
+    // Start Slider
+    .slider {
+        blockquote {
+            line-height: 1.7;
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 700;
+            color: #5e5e5e;
+            width: 80%;
+            margin: 15px auto;
+        }
+
+        img {
+            width: 100%;
+
+        }
+
+        .bullets {
+            text-align: center;
+
+            li {
+                width: 15px;
+                height: 15px;
+                background-color: $greycolor;
+                border-radius: 50%;
+                border: 1px solid $greycolor;
+                display: inline-block;
+                cursor: pointer;
+
+                &:active,
+                &:hover {
+                    background-color: #fff;
+                    border: 3px solid #333;
+
+                }
+            }
+
+
+
+        }
+    }
+
+    // End Slider
+    // Start services
+    .services-box {
+
+
+        @media #{$maxMobile} {
+            float: none;
+
+            width: 100%;
+            margin-bottom: 30px;
+
+        }
+
+        @media #{$minSmall} {
+            float: none;
+            text-align: center;
+
+            width: 100%;
+            margin-bottom: 30px;
+
+        }
+
+        @media #{$minMedium} {
+            float: $float-l;
+            width: calc(100% / 3);
+
+            &:not(:nth-of-type(4)) {
+                padding-right: 20px;
+            }
+
+        }
+
+
+
+        .services-little {
+            font-size: 23px;
+            margin-bottom: 8px;
+
+            i {
+                font-size: 30px;
+                margin-right: 10px;
+
+                @media #{$maxMobile} {
+
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                }
+
+                @media #{$minSmall} {
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                }
+            }
+        }
+
+        .services-desc {
+            line-height: 1.7;
+            color: #777;
+            margin: 0;
+        }
+
+        .link {
+            color: $redcolor;
+            margin-top: 10px;
+            display: block;
+        }
+    }
+
+    // End services
+    // Start our player
+    .player-box {
+        float: $float-l;
+
+
+
+
+
+        @media #{$maxMobile} {
+            width: calc(100% / 1);
+            margin-bottom: 30px;
+
+
+
+
+        }
+
+        @media #{$minSmall} {
+            width: calc(100% / 2);
+            margin-bottom: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        @media #{$minMedium} {
+            width: calc(100% / 3);
+        }
+
+        @media #{$minLarge} {
+            width: calc(100% / 5);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .player-little {
+            font-size: 14px;
+            margin-bottom: 15px;
+            font-weight: 400;
+
+            span {
+                font-size: larger;
+                font-weight: 700;
+            }
+        }
+
+        .player-desc {
+            line-height: 1.7;
+            color: #777;
+            margin: 0;
+        }
+
+        .link {
+            color: $redcolor;
+            margin-top: 10px;
+            display: block;
+        }
+    }
+
+    // End our player
+    // Start Lorem Ipsum
+    .lorem-ipsum {
+
+
+        .lorem-box {
+            float: $float-l;
+            width: calc(94% / 3);
+
+            &:not(:nth-of-type(4)) {
+                margin-right: 3%;
+            }
+
+
+            img {
+                width: 100%;
+            }
+
+            @media #{$maxMobile} {
+                width: calc(100% / 1);
+                margin-bottom: 30px;
+
+
+
+
+            }
+
+
+
+        }
+
+    }
+
+    // End Lorem Ipsum

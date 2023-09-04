@@ -1,0 +1,201 @@
+.footer {
+    background-color: #ccc;
+    overflow: hidden;
+
+    .section-title {
+        font-size: 20px;
+        color: #7f7f7f;
+        font-weight: 700;
+    }
+
+
+    .galery,
+    .info,
+    .contact {
+        float: $float-l;
+    }
+
+    .galery {
+        width: 50%;
+
+
+        @media #{$maxMobile} {
+            width: 100%;
+
+        }
+
+        @media #{$minSmall} {
+            width: 100%;
+        }
+
+        @media #{$minMedium} {
+            width: 50%;
+        }
+
+
+        .img-box {
+
+            overflow: hidden;
+            margin-bottom: 20px;
+
+
+            img {
+                @media #{$maxMobile} {
+                    width: 80%;
+                    height: 290px;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    text-align: center;
+                    float: none;
+                }
+
+                width: 150px;
+                float: $float-l;
+                padding: 2.5px;
+                background-color: #dadada;
+                border: 1px solid #8b8b8b;
+
+            }
+
+            .text {
+
+                float: $float-l;
+                width: calc(100% - 180px);
+                padding: 20px 15px 0;
+
+                @media #{$maxMobile} {
+                    width: 100%;
+                    text-align: center;
+                    float: none;
+                }
+
+                h4 {
+                    margin: 0;
+                    color: $redcolor;
+                }
+
+                p {
+                    margin-top: 12px;
+                    line-height: 1.7;
+                    color: #888;
+                    ;
+
+                }
+            }
+        }
+
+    }
+
+    .info {
+        width: 25%;
+
+
+        @media #{$maxMobile} {
+            width: 100%;
+
+        }
+
+        @media #{$minSmall} {
+            width: 50%;
+        }
+
+        @media #{$minMedium} {
+            width: 25%;
+        }
+
+        ul {
+            line-height: 1.8;
+            padding: 0;
+            color: #888;
+            font-size: 15px;
+            font-weight: 700;
+
+            li {
+                span {
+                    color: $redcolor;
+                }
+            }
+        }
+
+        .working {
+            p {
+                color: #888;
+                line-height: 1;
+                margin: 10px 0;
+            }
+
+        }
+    }
+
+    .contact {
+        width: 25%;
+
+        @media #{$maxMobile} {
+            width: 100%;
+
+        }
+
+        @media #{$minSmall} {
+            width: 50%;
+        }
+
+        @media #{$minMedium} {
+            width: 25%;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            height: 30px;
+            border-radius: 10px;
+            padding: 15px 10px;
+            border: 3px solid #c9c9c9;
+            width: 100%;
+
+        }
+
+        textarea {
+            height: 140px;
+            padding: 5px 10px;
+        }
+    }
+
+    .copyright {
+        border-top: 1px solid #b9b7b7;
+        padding: 10px 0;
+        margin-bottom: 25px;
+        margin-top: 30px;
+
+        .text,
+        .auther {
+            float: $float-l;
+            width: 50%;
+            color: #888;
+
+
+            @media #{$maxMobile} {
+                float: none;
+                margin: auto auto 15px;
+                text-align: center !important;
+            }
+
+
+        }
+
+        .text {
+            padding-top: 10px;
+        }
+
+        .auther {
+            text-align: $txt-al-r;
+
+            span {
+                color: $redcolor;
+                font-size: 25px;
+            }
+        }
+
+    }
+
+
+}
